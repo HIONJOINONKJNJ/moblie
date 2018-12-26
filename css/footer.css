@@ -1,0 +1,32 @@
+.footer{
+	width:100%;
+	height:1.4rem;
+	position: fixed;
+	bottom:0;
+	left:0;
+	display: flex;
+	background: #fff;
+}
+.footer .all{
+	width:25%;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+	align-items: center;
+	color:#ababab;
+}
+.footer .all img{
+	width:0.5rem;
+	height:0.5rem;
+}
+.footer .all span{
+	font-size:0.24rem;
+	color:#ababab;
+}
+.footer .act img{
+	color: #ff6700;
+}
+.footer .act span{
+	color:#ff6700;
+}
