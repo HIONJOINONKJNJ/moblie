@@ -25,7 +25,7 @@
 	height:0.96rem;
 	margin:0 0.16rem 0 0.32rem;
 }
-.head .head-con span{
+.head .head-con a{
 	color:#fff;
 	font-size:0.24rem;
 }
@@ -36,21 +36,23 @@
 	border-bottom:1px solid rgba(0,0,0,0.2);
 	box-sizing: border-box;
 	background: #fff;
-	line-height: 0.8rem;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-.bill .left{
-	font-size:0.28rem;
+	line-height: 1.2rem;
 	color:rgba(0,0,0,0.87);
-	margin-left:0.32rem;
+}
+.bill i{
+	font-size:0.28rem;
+	float:right;
+	margin-right:0.32rem;
 }
 .bill .right{
+	float:left;
 	font-size:0.24rem;
-	color:rgba(0,0,0,0.87);
-	margin-right:0.56rem;
-	
+	margin-left:7rem;
+}
+.bill .left{
+	float:left;
+	font-size:0.28rem;
+	margin-left:0.32rem;
 }
 /* 我的订单结束 */
 .btn{
@@ -75,6 +77,9 @@
 .btn div span{
 	font-size:0.22rem;
 	color:rgba(0,0,0,0.87);
+}
+main{
+	margin-bottom:1.4rem;
 }
 .first{
 	width:100%;
@@ -115,7 +120,6 @@
 .three{
 	width:100%;
 	height:1.6rem;
-	
 }
 .three .top{
 	width:100%;

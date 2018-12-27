@@ -6,6 +6,7 @@
 	left:0;
 	display: flex;
 	background: #fff;
+	box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
 }
 .footer .all{
 	width:25%;
@@ -24,9 +25,9 @@
 	font-size:0.24rem;
 	color:#ababab;
 }
-.footer .act img{
+/* .footer .act img{
 	color: #ff6700;
-}
+} */
 .footer .act span{
 	color:#ff6700;
 }

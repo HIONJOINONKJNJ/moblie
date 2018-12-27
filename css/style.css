@@ -111,13 +111,11 @@ main{
 .banner ul{
 	width:300%;
 	height:100%;
-	background: #ABABAB;
 	display: flex;
 }
 .banner ul li{
 	width:33.333%;
 	height:100%;
-	background: red;
 }
 .banner ul li img{
 	width:100%;
