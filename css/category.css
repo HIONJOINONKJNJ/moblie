@@ -1,29 +1,3 @@
-.header{
-	z-index:99;
-	max-width: 640px;
-	position:fixed;
-	top:0;
-	right:0;
-	left:0;
-	margin-right:auto;
-	margin-left:auto;
-	width:100%;
-	height:1.38rem;
-	color:#919191;
-	padding:0 0.5rem;
-	box-sizing: border-box;
-	background: #f2f2f2;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.header i,.header a{
-	font-size:0.58rem;
-	color:#919191;
-}
-.header span{
-	font-size:0.4rem;
-}
 /* 内容开始 */
 .content{
 	width:100%;

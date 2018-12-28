@@ -60,7 +60,7 @@
 	height:2.54rem;
 	display: flex;
 }
-.btn div{
+.btn div,.btn a{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -69,12 +69,12 @@
 	width:33.33333%;
 	height:100%;
 }
-.btn div img{
+.btn div img,.btn a img{
 	width:0.8rem;
 	height:0.8rem;
 	margin-bottom: 0.2rem;
 }
-.btn div span{
+.btn div span,.btn a span{
 	font-size:0.22rem;
 	color:rgba(0,0,0,0.87);
 }

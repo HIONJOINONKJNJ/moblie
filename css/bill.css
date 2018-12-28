@@ -1,0 +1,136 @@
+main{
+	padding:1.38rem 0 1.4rem 0;
+	box-sizing: border-box;
+	
+}
+.classify{
+	width:100%;
+	height:0.92rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.classify div{
+	font-size:0.36rem;
+	color: #333;
+}
+.classify .act{
+	color:#ff6700;
+	border-bottom: 1px solid #ff6700;
+	padding-bottom: 0.1rem;
+}
+.add{
+	width:100%;
+	height:0.35rem;
+	background: #f2f2f2;
+}
+.date{
+	width:100%;
+	height:1.76rem;
+}
+.date .top{
+	height:0.9rem;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding:0 0.5rem;
+	box-sizing: border-box;
+}
+.date .top span:nth-child(1){
+	font-size:0.4rem;
+	color:#333;
+}
+.date .top span:nth-child(2){
+	font-size:0.4rem;
+	color:#ff6700;
+}
+.date .bottom{
+	height:calc(1.76rem - 0.9rem);
+	width:100%;
+	display: flex;
+}
+.date .bottom span{
+	color:#919191;
+	font-size:0.3rem;
+	padding:0 0.5rem;
+	box-sizing: border-box;
+}
+.gotobuy{
+	width:100%;
+	height:2.13rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.gotobuy .none{
+	width:100%;
+	height:98%;
+	display: flex;
+	align-items: center;
+	padding:0 1rem;
+	box-sizing: border-box;
+}
+.gotobuy .line{
+	width:9.85rem;
+	height:1%;
+	background:#f2f2f2;
+}
+.gotobuy .none .img{
+	width:1rem;
+	height:1.2rem;
+}
+.gotobuy .none .img img{
+	width:100%;
+	height:100%;
+}
+.gotobuy .none .span{
+	font-size:0.32rem;
+	color:#333;
+	margin-left:0.5rem;
+}
+.all{
+	width:100%;
+	height:2.2rem;
+}
+.all .top{
+	width:100%;
+	height:0.8rem;
+	display: flex;
+	padding-right:0.5rem;
+	justify-content: flex-end;
+	align-items: flex-end;
+	box-sizing: border-box;
+	margin-bottom:0.35rem;
+}
+.all .top div:nth-child(1){
+	color:#333;
+	font-size:0.32rem;
+}
+.all .top div:nth-child(2){
+	color:#333;
+	font-size:0.4rem;
+}
+.all .bottom{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding-right: 0.5rem;
+	box-sizing: border-box;
+}
+.all .bottom .one{
+	width:2.3rem;
+	font-size:0.4rem;
+	color:#919191;
+	text-align: center;
+	line-height:1rem;
+	height:1rem;
+	border: 1px solid #919191;
+	}
+.all .bottom .two{
+	color:#ff6700;
+	margin-left:0.35rem;
+	border: 1px solid #ff6700;
+	
+}
