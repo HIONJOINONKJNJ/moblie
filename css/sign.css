@@ -23,39 +23,35 @@
 	justify-content: space-between;
 	align-items: center;
 }
-.sign input{
+.sign .bottom,.sign .top{
 	width:100%;
 	height:48%;
+	display:flex;
+}
+.sign .top input,.sign .bottom input{
+	width:100%;
+	height:100%;
 	border:none;
 	outline:none;
 	padding-left:1rem;
-	box-sizing: border-box;
+	box-sizing:border-box;
 	font-size:0.5rem;
 	display:flex;
-	align-items:center;
+}
+.sign .bottom input{
+	width:73%;
+}
+.sign .bottom span{
+	color:royalblue;
+	font-size: 0.4rem;
+	margin-top:0.6rem;
 }
 .sign .line{
 	width:9rem;
 	height:1%;
 	background:rgba(0,0,0,0.5);
 }
-.sign .bottom{
-	width:100%;
-	height:48%;
-	display:flex;
-	font-size:0.5rem;
-	align-items:center;
-	margin-left:2rem;
-	color:rgba(0,0,0,0.5);
-}
-.sign .bottom{
-	display: flex;
-}
-.sign .bottom span{
-	color:royalblue;
-	font-size: 0.4rem;
-	margin-left:3.75rem;
-}
+
 .logo{
 	width:9rem;
 	height:1.35rem;
