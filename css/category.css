@@ -14,12 +14,11 @@
 	width:2.27rem;
 	height:100%;
 	overflow:auto;
-	text-overflow: ellipsis;
-	white-space: nowrap;
+	/* text-overflow: ellipsis;
+	white-space: nowrap; */
 	float:left;
 	border-right: 0.03rem solid #efefef ;
 	box-sizing: border-box;
-	
 }
 .content .aside::-webkit-scrollbar{
 	width:0;

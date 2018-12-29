@@ -1,0 +1,274 @@
+.main{
+	padding-bottom:3rem;
+	box-sizing: border-box;
+}
+
+.picture{
+	width:100%;
+	height:11.84rem;
+	position:relative;
+}
+.picture img{
+	width:100%;
+	height:100%;
+}
+.picture .back a,.picture .share a{
+	color:#604a4d;
+	font-size:0.9rem;
+}
+.picture .back,.picture .share{
+	position: absolute;
+	top:0.25rem;
+}
+.picture .back{
+	left:0.25rem;
+
+}
+.picture .share{
+	right:0.25rem;
+}
+.big-text{
+	width:100%;
+	height:1.2rem;
+	font-size:0.56rem;
+	color:#3c3c3c;
+	margin-bottom: 0;
+	padding:0.5rem;
+	box-sizing: border-box;
+}
+.small-text{
+	height:2.05rem;
+	padding:0.5rem 0.5rem;
+	width:100%;
+	font-size:0.36rem;
+	color:#757575;
+	box-sizing: border-box;
+}
+.price{
+	height:0.75rem;
+	width:100%;
+	padding-left:0.5rem;
+	box-sizing: border-box;
+	display:flex;
+	align-items: flex-end;
+}
+.price .span{
+	font-size:0.5rem;
+	color:#ff6700;
+}
+.price del{
+	margin-left:0.3rem;
+	font-size:0.22rem;
+	color:#a6a6a6;
+}
+.info{
+	height:3.35rem;
+	width:9.5rem;
+	background: #fbfbfb;
+	margin:1rem auto 0.3rem;
+	border-radius:0.2rem;
+	border:1px solid #e4e4e4;
+	box-sizing: border-box;
+}
+.info .one{
+	width:100%;
+	height:32.66666%;
+	display: flex;
+	align-items:center;
+}
+.info .one div:nth-child(1){
+	font-size:0.36rem;
+	color:#a6a6a6;
+	margin-left:0.5rem;
+	
+}
+.info .one div:nth-child(2){
+	font-size:0.36rem;
+	color:#3c3c3c;
+	margin-left:0.5rem;
+}
+.info .line{
+	width:100%;
+	height:1%;
+	background: #e4e4e4;
+}
+.info .one .iconfont{
+	font-size:0.36rem;
+	color:#a6a6a6;
+	margin-left:2.4rem;
+}
+.info .two>div:nth-child(3){
+	font-size:0.36rem;
+	color:#ff6700;
+	margin-left:0.3rem;
+}
+.info .two>div:nth-child(4){
+	margin-left:3.3rem;
+
+}
+.info .three{
+	width:100%;
+	height:32.6666%;
+	display:flex;
+	align-items: center;
+}
+.info .three>div:nth-child(1){
+	font-size:0.35rem;
+	color:#ff6700;
+	margin-left:0.5rem;
+	margin-right:0.1rem;
+}
+.info .three>div:nth-child(3){
+	font-size:0.35rem;
+	color:#ff6700;
+	margin-left:0.5rem;
+	margin-right:0.1rem;
+}
+.info .three>div:nth-child(5){
+	font-size:0.35rem;
+	color:#ff6700;
+	margin-left:0.5rem;
+	margin-right:0.1rem;
+}
+.info .three>div:nth-child(7){
+	font-size:0.36rem;
+	color:#6a6a6a;
+	margin-left:1.7rem;
+}
+.info .three .hui{
+	color:#a6a6a6;
+	font-size:0.26rem;
+}
+
+.comment{
+	height:7.04rem;
+	width:9.5rem;
+	background: #fbfbfb;
+	margin:0rem auto 0.3rem;
+	border-radius:0.2rem;
+	border:1px solid #e4e4e4;
+	box-sizing: border-box;
+}
+.more{
+	width:100%;
+	height:1.8rem;
+	border-bottom:1px solid #e4e4e4;
+    box-sizing: border-box;
+	text-align: center;
+	line-height:1.8rem;
+	color:blue;
+	font-size:0.45rem;
+}
+.last{
+	height:1.35rem;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.last .left{
+	width:49.5%;
+	height:100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size:0.35rem;
+	color:#ff6700;
+}
+.last .right{
+	color:#3c3c3c;
+}
+.last .line{
+	width:0.5%;
+	height:0.35rem;
+	background:#e4e4e4 ;
+}
+.add{
+	width:100%;
+	height:0.65rem;
+	background: #fbfbfb;
+}
+.picture1{
+	height:14.28rem;
+	width:100%;
+	background: #00BE00;
+	margin-bottom:0.15rem;
+}
+.picture1 img{
+	width:100%;
+	height:100%;
+}
+.picture2{
+	height:9rem;
+	width:100%;
+	background: red;
+	margin: 0 auto;
+}
+.picture2 img{
+	width:100%;
+	height:100%;
+}
+.check{
+	width:100%;
+	height:1.4rem;
+	text-align: center;
+	line-height:1.4rem ;
+	color:#ff6700;
+	font-size:0.38rem;
+}
+.footer2{
+	width:10.04rem;
+	height:1.55rem;
+	border-radius:0.2rem;
+	border:1px solid #e4e4e4;
+	box-sizing: border-box;
+	position: fixed;
+	bottom:0rem;
+	justify-content: space-between;
+	left:0.35rem;
+	align-items: center;
+}
+.footer2 .btn-buy{
+	width:3.45rem;
+	height:0.95rem;
+	background: #ff6700;
+	font-size:0.37rem;
+	color:#fff;
+	text-align: center;
+	line-height: 0.95rem;
+	border-radius: 10rem;
+	margin-right:0.5rem;
+}
+.back-top .iconfont{
+	position: fixed;
+	bottom:2rem;
+	right:0.5rem;
+	color:#a6a6a6;
+}
+.for-recommend{
+	width:100%;
+	height:1.475rem;
+	background: #fbfbfb;
+	font-size:0.7rem;
+	color:#3c3c3c;
+	display: flex;
+	align-items: flex-end;
+	padding-left:0.5rem;
+	box-sizing: border-box;
+}
+.recommend-pic{
+	width:100%;
+	height:5.45rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.recommend-pic .left{
+	width:49.5%;
+	height:4.65rem;
+	
+}
+.recommend-pic .left img{
+	width:100%;
+	height:100%;
+}

@@ -169,11 +169,11 @@ main{
 	display:flex;
 	justify-content: space-between;
 }
-.goods .list{
+.goods  a .goods-left,.goods ..goods-right{
 	width:49.5%;
 	height:7.68rem;
 }
-.goods .goods-left img{
+.goods  a .goods-left img{
 	width:100%;
 	height:100%;
 }
